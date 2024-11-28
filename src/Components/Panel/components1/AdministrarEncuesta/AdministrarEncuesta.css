@@ -1,0 +1,33 @@
+.Administrar-container {
+    padding: 20px;
+    background-color: #262844;
+    border-radius: 10px;
+  }
+  
+  .panel-title {
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .Administrar-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Administrar-button {
+    padding: 10px;
+    font-size: 1.1em;
+    background-color: #1a1c37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .Administrar-button:hover {
+    background-color: #2980b9;
+  }
+  
