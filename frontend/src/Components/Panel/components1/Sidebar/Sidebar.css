@@ -1,0 +1,40 @@
+.panel-sidebar {
+    width: 250px;
+    background-color: var(--panel-card);
+    padding: 20px 0;
+    color: var(--panel-text-secondary);
+  }
+  
+  .panel-logo {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: var(--panel-text);
+  }
+  
+  .panel-menu-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .panel-menu-item:hover {
+    background-color: var(--panel-bg);
+    color: var(--panel-text);
+  }
+  
+  .panel-menu-icon {
+    margin-right: 12px;
+  }
+  
+  .panel-menu-badge {
+    position: absolute;
+    right: 20px;
+    background-color: var(--panel-secondary);
+    color: white;
+    padding: 2px 6px;
+    border-radius: 12px;
+    font-size: 12px;
+  }
