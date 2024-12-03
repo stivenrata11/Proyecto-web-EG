@@ -1,0 +1,64 @@
+.configuracion-container {
+    padding: 20px;
+    background-color: var(--panel-card);
+    border-radius: 8px;
+  }
+  
+  .panel-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .config-option {
+    margin-bottom: 20px;
+  }
+  
+  .config-option h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .theme-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .theme-button.active {
+    background-color: var(--panel-primary);
+    color: white;
+  }
+  
+  .theme-button:not(.active) {
+    background-color: var(--panel-secondary);
+    color: white;
+  }
+  
+  .theme-button:hover {
+    background-color: var(--panel-hover);
+  }
+  
+  input[type="range"] {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .back-button {
+    background-color: var(--panel-primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: var(--panel-secondary);
+  }
+  

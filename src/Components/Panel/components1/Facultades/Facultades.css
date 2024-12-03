@@ -1,0 +1,56 @@
+.facultades-container {
+    padding: 20px;
+    background-color: var(--panel-card);
+    border-radius: 8px;
+  }
+  
+  .panel-title {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--panel-title-color);
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border: 1px solid var(--panel-border);
+    border-radius: 5px;
+  }
+  
+  .facultades-list, .escuelas-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .facultad-card {
+    padding: 15px;
+    background-color: var(--panel-light);
+    border: 1px solid var(--panel-border);
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .facultad-card h2 {
+    margin-bottom: 10px;
+    color: var(--panel-title-color);
+  }
+  
+  .filter-button, .back-button {
+    background-color: var(--panel-primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+  }
+  
+  .filter-button:hover, .back-button:hover {
+    background-color: var(--panel-secondary);
+  }
+  
